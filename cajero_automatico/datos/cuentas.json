@@ -1,0 +1,44 @@
+[
+    {
+        "nombre": "jose perez",
+        "saldo": 100000.0,
+        "contrase\u00f1a": "1448",
+        "intentos": 2
+    },
+    {
+        "nombre": "pablo marmol",
+        "saldo": 500000.0,
+        "contrase\u00f1a": "5571",
+        "intentos": 0
+    },
+    {
+        "numero_cuenta": "00123",
+        "contrase\u00f1a": "contrase\u00f1a123",
+        "saldo": 0
+    },
+    {
+        "numero_cuenta": "123",
+        "contrase\u00f1a": "contrase\u00f1a123",
+        "saldo": 0
+    },
+    {
+        "numero_cuenta": "1234",
+        "contrase\u00f1a": "QG7hN0x7Cb",
+        "saldo": 0
+    },
+    {
+        "numero_cuenta": "123123",
+        "contrase\u00f1a": "U1u5HLjRSs",
+        "saldo": 900000.0
+    },
+    {
+        "numero_cuenta": "456456",
+        "contrase\u00f1a": "iieit9g1Ur",
+        "saldo": 0
+    },
+    {
+        "numero_cuenta": "12366",
+        "contrase\u00f1a": "ghgrsc2tHh",
+        "saldo": 89745555.0
+    }
+]
