@@ -1,60 +1,87 @@
-# 🏧 Cajero Automatic – Simulación de Cajero Bancario en Python
+# 🏧 **Cajero Automático – Simulación de Cajero Bancario en Python**
 
-Proyecto de consola en Python que simula el funcionamiento de un cajero automático. Permite operar con cuentas bancarias: consultar saldo, depositar, retirar dinero, transferencias, cambio de PIN y bloqueo de cuenta. Ideal como ejercicio didáctico de estructuras de control, funciones y manejo de datos.
-
----
-
-## 🚀 Características
-
-- Simulación completa de un cajero automático en consola.
-- Funciones disponibles:
-  - Inicio de sesión seguro (PIN).
-  - Consultar saldo.
-  - Depositar fondos.
-  - Retirar efectivo.
-  - Transferencias entre cuentas.
-  - Cambio de PIN.
-  - Bloqueo de cuenta tras múltiples intentos fallidos.
-- Manejo de errores y validaciones (saldo insuficiente, PIN incorrecto, operaciones inválidas).
+Proyecto en consola desarrollado con Python, que simula el comportamiento de un cajero automático. Incluye operaciones comunes como consulta de saldo, depósitos, retiros, transferencias, cambio de PIN y bloqueo de cuenta tras intentos fallidos.
+Ideal como ejercicio práctico para afianzar estructuras de control, modularidad, funciones, validación y lógica de negocio.
 
 ---
 
-## 🧰 Tecnologías
+## 🚀 **Características principales**
 
-- Python 3.x
-- Módulos estándar (no se requieren dependencias externas)
+* Simulación realista del flujo de un cajero automático.
+* Operaciones disponibles:
+
+  * Inicio de sesión seguro mediante PIN.
+  * Consulta de saldo.
+  * Depósito de fondos.
+  * Retiro de efectivo con validación de saldo.
+  * Transferencias entre cuentas.
+  * Cambio de PIN.
+  * Bloqueo automático tras múltiples intentos de PIN fallido.
+* Validaciones implementadas:
+
+  * PIN incorrecto.
+  * Saldo insuficiente.
+  * Operaciones inválidas.
+  * Control de intentos y seguridad básica.
 
 ---
 
-## ⚙️ Instalación y uso
+## 🧰 **Tecnologías utilizadas**
+
+* 🐍 **Python 3.x**
+* Módulos estándar de Python (`os`, `json`, `getpass`, etc.)
+* Programación modular (archivos separados por funcionalidades)
+* Sin dependencias externas
+
+---
+
+## ⚙️ **Cómo ejecutar el proyecto**
 
 1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/DanielRC696/CajeroAutomatic.git
-   cd CajeroAutomatic
-2. Verifica que tengas Python 3.x instalado:
+
+```bash
+git clone https://github.com/DanielRC696/CajeroAutomatic.git
+cd CajeroAutomatic
+```
+
+2. Asegúrate de tener Python 3.x instalado:
+
+```bash
 python --version
+```
 
-3. Ejecuta la aplicación:
+3. Ejecuta el archivo principal:
+
+```bash
 python main.py
+```
 
-4. Sigue las instrucciones en pantalla para interactuar con el cajero
+4. Sigue las instrucciones en pantalla para interactuar con el cajero.
 
-📁 Estructura del proyecto
-CajeroAutomatic/
-├── main.py                # Lógica principal del cajero
-├── accounts.py            # Gestión de cuentas y usuarios
-├── transactions.py        # Funciones para operaciones bancarias
-├── utils/                 # Funciones auxiliares (validaciones, input)
-├── data/                  # Archivos JSON o datos de ejemplo (si existen)
-└── README.md              # Este archivo explicativo
+---
 
-📫 Contacto
-Proyecto creado por: Daniel Augusto Romero Cortes
-📧 romerocortesdaniel9@gmail.com
-🇨🇴 Colombia
+## 📁 **Estructura del proyecto**
 
-📌 Nota
-Este README está pensado para comandos en consola. Si luego agregas interfaz gráfica, API, web o móvil, adapta el README en consecuencia.
+```
+CajeroAutomatico/
+├── main.py                # Lógica principal y flujo del cajero
+├── accounts.py            # Gestión de usuarios y cuentas
+├── transactions.py        # Funciones para depósitos, retiros, etc.
+├── utils/                 # Funciones auxiliares (validaciones, entrada segura)
+├── data/                  # Archivos JSON con información de prueba (si existen)
+└── README.md              # Documento explicativo del proyecto
+```
+
+---
+
+## 👤 **Desarrollador**
+
+* **Nombre:** Daniel Augusto Romero Cortés
+* **Email:** [romerocortesdaniel9@gmail.com](mailto:romerocortesdaniel9@gmail.com)
+* **GitHub:** [@DanielRC85](https://github.com/DanielRC85)
+
+
+
+
 
 
